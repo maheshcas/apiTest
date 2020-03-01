@@ -1,0 +1,25 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha 'apitesting.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshcas/apiTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshcas/apiTest/issues"
+  },
+  "homepage": "https://github.com/maheshcas/apiTest#readme",
+  "dependencies": {
+    "mocha": "^7.1.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
